@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import AppointmentType from "./components/AppointmentType";
 import AppointmentDetails from "./components/AppointmentDetails";
 import InterpreterGender from "./components/InterpreterGender";
+import SignInNotice from "./components/SignInNotice";
 
 const OverlappingCardsLayout = () => {
 	return (
@@ -19,13 +20,10 @@ const OverlappingCardsLayout = () => {
 					</Card>
 
 					{/* Right Card */}
-					<Card className="w-[40%] h-[72vh] bg-blue-100 absolute right-0 top-[6%] mr-5 z-10">
-						<div className="p-6">
-							<h2 className="text-2xl font-bold mb-4">Right Card</h2>
-							<p>
-								This card is now also 80% of the screen height, covers 40% of
-								the available width, and overlaps the left card by 5%.
-							</p>
+					<Card className="w-[40%] h-[72vh] bg-blue-900 absolute right-0 top-[6%] mr-5 z-10">
+						<div className="p-2">
+							<SignInNotice />
+							
 						</div>
 					</Card>
 				</div>
