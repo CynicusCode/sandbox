@@ -1,5 +1,8 @@
 import React from "react";
 import { Card } from "@/components/ui/card";
+import AppointmentType from "./components/AppointmentType";
+import AppointmentDetails from "./components/AppointmentDetails";
+import InterpreterGender from "./components/InterpreterGender";
 
 const OverlappingCardsLayout = () => {
 	return (
@@ -7,13 +10,11 @@ const OverlappingCardsLayout = () => {
 			<div className="max-w-5xl w-full relative">
 				<div className="flex">
 					{/* Left Card */}
-					<Card className="w-[60%] h-[80vh] bg-white">
-						<div className="p-6">
-							<h2 className="text-2xl font-bold mb-4">Left Card</h2>
-							<p>
-								This card is 80% of the screen height and covers 60% of the
-								available width.
-							</p>
+					<Card className="w-[60%] h-[80vh] bg-white ">
+						<div className=" flex-col max-w-lg mt-16">
+							<AppointmentType />
+							<AppointmentDetails />
+							<InterpreterGender />
 						</div>
 					</Card>
 

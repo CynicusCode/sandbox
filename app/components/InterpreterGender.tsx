@@ -9,7 +9,7 @@ import {
 
 const InterpreterGender = () => {
 	return (
-		<div>
+		<div className="p-4">
 			<label
 				htmlFor="interpreterGender"
 				className="block text-sm font-medium text-gray-700 mb-1"

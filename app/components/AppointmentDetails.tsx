@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 
 const AppointmentDetails = () => {
 	return (
-		<div>
+		<div className="p-4">
 			<label
 				htmlFor="appointmentDetails"
 				className="block text-sm font-medium text-gray-700 mb-1"
