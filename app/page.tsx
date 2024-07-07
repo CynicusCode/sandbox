@@ -3,9 +3,9 @@ import { Card } from "@/components/ui/card";
 import AppointmentType from "./components/AppointmentType";
 import AppointmentDetails from "./components/AppointmentDetails";
 import InterpreterGender from "./components/InterpreterGender";
-import SignInNotice from "./components/SignInNotice";
+import CommunicationDashboard from "./components/CommunicationDashboard";
 
-const OverlappingCardsLayout = () => {
+const WebformSandbox = () => {
 	return (
 		<div className="flex justify-center items-center min-h-screen bg-slate-50">
 			<div className="max-w-5xl w-full relative">
@@ -21,10 +21,7 @@ const OverlappingCardsLayout = () => {
 
 					{/* Right Card */}
 					<Card className="w-[40%] h-[72vh] bg-blue-900 absolute right-0 top-[6%] mr-5 z-10">
-						<div className="p-2">
-							<SignInNotice />
-							
-						</div>
+						<CommunicationDashboard />
 					</Card>
 				</div>
 			</div>
@@ -32,4 +29,4 @@ const OverlappingCardsLayout = () => {
 	);
 };
 
-export default OverlappingCardsLayout;
+export default WebformSandbox;

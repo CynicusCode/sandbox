@@ -4,7 +4,7 @@ import React from "react";
 const SignInNotice = () => {
 	return (
 		<div className="p-6">
-			<h1 className="font-bold text-orange-500 text-3xl pb-4 flex justify-center">
+			<h1 className="font-bold text-orange-400 text-3xl pb-4 flex justify-center">
 				Onsite Request Form
 			</h1>
 			<div className="text-white mt-4 ">
