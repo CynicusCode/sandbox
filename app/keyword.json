@@ -1,3 +1,4 @@
+
 {
     "medical_with_xrays": [
       "catheterization",
@@ -126,6 +127,8 @@
       "gynecology",
       "GYN",
       "obstetrics",
+      "obstetric",
+      "obstetrician",
       "OB",
       "pregnancy",
       "prenatal",
@@ -154,7 +157,7 @@
       "pelvic",
       "PID",
       "vaginal",
-      "yeast infection",
+      "yeast",
       "candidiasis",
       "bacterial vaginosis",
       "BV",
@@ -209,7 +212,7 @@
       "vaginismus",
       "female hygiene",
       "women's health",
-      "maternity care",
+      "maternity",
       "postpartum depression",
       "PPD",
       "lactation consultation",
@@ -224,7 +227,10 @@
       "cystitis",
       "interstitial cystitis",
       "IC",
-      "female bladder issues"
+      "female bladder issues",
+      "OBGYN",
+      "ovgyn",
+      "obstetric gynecology"
     ]
   }
   

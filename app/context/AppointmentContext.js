@@ -1,3 +1,5 @@
+//app/context/AppointmentContext.js file is used to create a context for the appointment type, appointment details.
+
 import React, { createContext, useState, useContext } from "react";
 
 const AppointmentContext = createContext();

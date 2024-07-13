@@ -1,3 +1,4 @@
+//app/components/CommunicationDashboard.tsx
 import React from "react";
 
 const CommunicationDashboard = () => {
